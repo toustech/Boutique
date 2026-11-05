@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panier</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Mon panier</h1>
+
+  <div class="list-products">
+    <div class="card">
+      <img src="images/riz-poisson.jpg" alt="Riz au poisson">
+      <div class="card-body">
+        <h5 class="card-title">Riz au poisson</h5>
+        <p class="card-text">Poisson cuit dans du riz</p>
+        <h4 class="unit-price">100 $</h4>
+        <div>
+          <i class="fas fa-plus-circle"></i>
+          <span class="quantity">0</span>
+          <i class="fas fa-minus-circle"></i>
+        </div>
+        <div>
+          <i class="fas fa-trash-alt"></i>
+          <i class="fas fa-heart"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/riz-blanc.jpg" alt="Plat de riz blanc">
+      <div class="card-body">
+        <h5 class="card-title">Plat Riz blanc</h5>
+        <p class="card-text">Riz blanc cuit</p>
+        <h4 class="unit-price">20 $</h4>
+        <div>
+          <i class="fas fa-plus-circle"></i>
+          <span class="quantity">0</span>
+          <i class="fas fa-minus-circle"></i>
+        </div>
+        <div>
+          <i class="fas fa-trash-alt"></i>
+          <i class="fas fa-heart"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/legumes.jpg" alt="Légumes">
+      <div class="card-body">
+        <h5 class="card-title">Légumes</h5>
+        <p class="card-text">Mélange de légumes frais</p>
+        <h4 class="unit-price">30 $</h4>
+        <div>
+          <i class="fas fa-plus-circle"></i>
+          <span class="quantity">0</span>
+          <i class="fas fa-minus-circle"></i>
+        </div>
+        <div>
+          <i class="fas fa-trash-alt"></i>
+          <i class="fas fa-heart"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="total-box">
+    Prix total : <span class="total">0 $</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
